@@ -40904,30 +40904,30 @@ A.Yl.prototype={
 $1(a){return a},
 $S:124}
 A.Yj.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i="No new data received"
+$2(a,b){var s,r,q,p,o,n,m,l,k=null,j="No new data received"
 if(b instanceof A.w8){s=this.a
 s.as=!1
 r=b.a
 if(s.DV(r)){r=r.a
 q=r==null
 if(!q)B.b.gJ(r.a).toString
-p=j
+p=k
 if(!q){o=B.b.gJ(r.a).d
-o=o==null?j:o.c
-p=o}n=j
+o=o==null?k:o.c
+p=o}n=k
 if(!q){o=B.b.gJ(r.a).d
-o=o==null?j:o.b
+o=o==null?k:o.b
 n=o}if(p!=null&&n!=null){A.bA().$1("New max value: "+A.f(p)+", New min value: "+A.f(n))
 o=s.ch
 if(p>o)o=s.ch=p+n*0.4
 m=s.ay
-if(m===0||n<m){l=n-n*0.4
-m=s.ay=l<0?0:l}A.bA().$1(" max value: "+A.f(o)+", min value: "+A.f(m))}else{s.ch=1e4
-s.ay=0}if(q)k=j
+if(n<m)m=s.ay=n-n*0.4
+A.bA().$1(" max value: "+A.f(o)+", min value: "+A.f(m))}else{s.ch=1e4
+s.ay=0}if(q)l=k
 else{r=B.b.gJ(r.a).c
-k=r}s.am(new A.Yg(s,k==null?A.b([],t.t):k))
-s.a6i()}else{A.bA().$1(i)
-A.avo(i)
+l=r}s.am(new A.Yg(s,l==null?A.b([],t.t):l))
+s.a6i()}else{A.bA().$1(j)
+A.avo(j)
 s.at=!0
 return}}},
 $S:376}
