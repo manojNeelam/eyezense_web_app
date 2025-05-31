@@ -40915,7 +40915,8 @@ if(q)p=i
 else p=B.b.gJ(r.a).b
 o=s.ax
 if(o!=null&&p!=null&&o.k(0,p)){A.arM("Oops! Same timestamp data received")
-return}n=i
+return}s.ax=p
+n=i
 if(!q){o=B.b.gJ(r.a).d
 o=o==null?i:o.c
 n=o}m=i
@@ -40923,12 +40924,11 @@ if(!q){o=B.b.gJ(r.a).d
 o=o==null?i:o.b
 m=o}if(n!=null&&m!=null){A.bA().$1("New max value: "+A.f(n)+", New min value: "+A.f(m))
 o=s.ch
-if(n>o)o=s.ch=n+m*0.2
+if(n>o)o=s.ch=n+m*0.4
 l=s.ay
-if(l===0||m<l){k=m-m*0.2
+if(l===0||m<l){k=m-m*0.4
 l=s.ay=k<0?0:k}A.bA().$1(" max value: "+A.f(o)+", min value: "+A.f(l))}else{s.ch=1e4
-s.ay=0}s.ax=p
-if(q)j=i
+s.ay=0}if(q)j=i
 else{r=B.b.gJ(r.a).c
 j=r}s.am(new A.Yg(s,j==null?A.b([],t.t):j))
 s.a6i()}else{A.bA().$1(h)
