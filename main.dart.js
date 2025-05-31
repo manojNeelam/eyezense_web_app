@@ -41317,8 +41317,8 @@ for(s=o.e,r=o.f,q=0;p=s.length,q<p;++q)m.push(new A.bS(q/r,s[q]))
 s=p!==0?p/r:1
 r=A.b([A.za(n,1,n,B.bS,0.35,n,new A.mc(!1,A.asq(),A.awq()),n,!1,!1,!1,!1,B.ez,!1,10,B.f8,!0,B.dc,m)],t.HS)
 return new A.cJ(B.CD,A.azq(A.a76(n,n,n,B.lF,A.atX(B.jF,n),B.l0,B.kZ,B.l1,r,B.lr,s+10,o.c,0,o.d,B.vG,B.lG,o.Zi())),n)},
-Zi(){var s=null,r=A.cE("Acoustic Waveform",s,s,s,s,s,s,s,A.e5().$3$color$fontSize$fontWeight(B.j,12,B.i),s,s,s)
-return new A.oI(!0,new A.ij(16,A.cE("Acoustic Value",s,s,s,s,s,s,s,A.e5().$3$color$fontSize$fontWeight(B.j,12,B.i),s,s,s),new A.lc(!0,new A.ai0(),22,s),!0),B.dV,B.dV,new A.ij(16,r,B.iH,!0))}}
+Zi(){var s=null,r=A.cE("Acoustic Time Line",s,s,s,s,s,s,s,A.e5().$3$color$fontSize$fontWeight(B.j,12,B.i),s,s,s)
+return new A.oI(!0,new A.ij(16,A.cE("Acoustic Value",s,s,s,s,s,s,s,A.e5().$3$color$fontSize$fontWeight(B.j,12,B.i),s,s,s),new A.lc(!0,new A.ai0(),70,s),!0),B.dV,B.dV,new A.ij(16,r,B.iH,!0))}}
 A.ai0.prototype={
 $2(a,b){return new A.cJ(B.kX,A.axq(B.c.W(a,1),16,1,10,A.e5().$3$color$fontSize$fontWeight(B.j,16,B.i)),null)},
 $S:115}
