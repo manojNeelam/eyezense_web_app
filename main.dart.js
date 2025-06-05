@@ -40917,7 +40917,7 @@ else s=B.b.gJ(p.a)
 r=s==null?null:s.b
 if(r==null)return!1
 q=A.awT(A.tF(r),A.abD(r),A.abz(r),A.abA(r),A.abC(r),A.abE(r),A.abB(r),r.b)
-return B.e.cf(new A.du(Date.now(),0,!1).Fn().fS(q).a,864e8)<10}return!1},
+return B.e.cf(new A.du(Date.now(),0,!1).Fn().fS(q).a,6e7)<10}return!1},
 l(){var s=this.z
 if(s!=null)s.ag(0)
 this.aF()},
