@@ -9624,7 +9624,7 @@ s=$.Ge().ro()
 $.Xq=$.Xq+s.length
 A.aD1(s)}if(!$.Ge().gS(0)){$.auQ=!0
 $.Xq=0
-A.ci(B.e7,A.aTm())
+A.ci(B.cV,A.aTm())
 if($.apR==null)$.apR=new A.b6(new A.a9($.ad,t.U),t.Q)}else{$.avM().k7(0)
 r=$.apR
 if(r!=null)r.dV(0)
@@ -28511,7 +28511,7 @@ A.yh(a,null,s).ba(new A.a6l(r,this,c,b),s)
 return new A.a6m(r)},
 a6q(a,b,c){var s,r,q,p=this
 if(!p.b)return
-s=p.La(B.cV,new A.a6n(c,a,b),new A.a6o(p,a))
+s=p.La(B.e7,new A.a6n(c,a,b),new A.a6o(p,a))
 r=p.r
 q=r.v(0,a)
 if(q!=null)q.$0()
@@ -29692,7 +29692,7 @@ if(p!=null)p.ag(0)
 if(a.type==="keydown")if(!a.ctrlKey){p=A.Im(a)
 p=p===!0||a.altKey||a.metaKey}else p=!0
 else p=!1
-if(p)q.m(0,r,A.ci(B.cV,new A.abP(m,r,s)))
+if(p)q.m(0,r,A.ci(B.e7,new A.abP(m,r,s)))
 else q.v(0,r)}o=a.getModifierState("Shift")?1:0
 if(a.getModifierState("Alt")||a.getModifierState("AltGraph"))o|=2
 if(a.getModifierState("Control"))o|=4
@@ -40821,7 +40821,7 @@ S1(a){var s=0,r=A.A(t.BB),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$rN=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.E(n.a.mo("https://67o4hetpn35swcoca3m2r37rdm0fygxg.lambda-url.us-west-2.on.aws/devices?device_id=12&sensor_type=A&limit=6"),$async$rN)
+return A.E(n.a.mo("https://67o4hetpn35swcoca3m2r37rdm0fygxg.lambda-url.us-west-2.on.aws/devices?device_id=12&sensor_type=A&limit=4"),$async$rN)
 case 7:m=c
 A.bS().$1("getAcousticData response")
 A.bS().$1(J.bf(m.c))
@@ -41389,7 +41389,7 @@ s.y=!1},
 $S:0}
 A.ajA.prototype={
 $2(a,b){var s=this.a
-return A.aAd(new A.ajx(s),B.cc,B.cV,new A.aF(0,s.Q.length,t.Y),t.i)},
+return A.aAd(new A.ajx(s),B.cc,B.e7,new A.aF(0,s.Q.length,t.Y),t.i)},
 $S:480}
 A.ajx.prototype={
 $3(a,b,c){return A.ayo(this.a.Sf(B.c.eW(b)))},
@@ -48282,7 +48282,7 @@ n=c.gn(c)
 m=t.r
 l=t.gD
 h.CW=new A.b0(m.a(p),new A.ml(0,n>>>24&255),l.i("b0<aI.T>"))
-n=A.cA(i,B.e7,i,i,q)
+n=A.cA(i,B.cV,i,i,q)
 n.bs()
 p=n.bF$
 p.b=!0
@@ -48379,7 +48379,7 @@ A.alJ.prototype={
 O0(a,b,c,d,e,f,g,h,i,j,k,a0){var s,r,q,p,o,n=null,m=b==null?B.a1:b,l=i==null?A.aQh(k,d,j,h):i
 m=new A.yC(h,m,l,A.aQd(k,d,j),!d,a0,c,f,e,k,g)
 s=e.A
-r=A.cA(n,B.e7,n,n,s)
+r=A.cA(n,B.cV,n,n,s)
 q=e.gfq()
 r.bs()
 p=r.bF$
@@ -50148,7 +50148,7 @@ a3h(){this.a.toString},
 a2c(){var s,r=this.c
 r.toString
 s=A.Lv(r)
-if(s!=null&&s.f.length!==0)s.jl(0,B.Bu,B.e7)},
+if(s!=null&&s.f.length!==0)s.jl(0,B.Bu,B.cV)},
 gll(){this.a.toString
 return!0},
 al(){var s,r=this,q=null
@@ -68197,7 +68197,7 @@ a.hX(new A.r(s/2*(0.5+r),o-p),p,m)
 a.bO(0)},
 j(a){return"_GlowController(color: "+this.ay.j(0)+", axis: "+this.ch.b+")"}}
 A.alf.prototype={
-$0(){return this.a.lk(B.cV)},
+$0(){return this.a.lk(B.e7)},
 $S:0}
 A.Rc.prototype={
 Ku(a,b,c,d,e){var s
@@ -81904,14 +81904,14 @@ B.C5=new A.xy(null,null,null,null,null,null,null,null,null)
 B.C6=new A.xz(null,null,null)
 B.q=new A.aX(0)
 B.aE=new A.aX(1e5)
-B.e7=new A.aX(1e6)
+B.cV=new A.aX(1e6)
 B.C7=new A.aX(12e5)
 B.kI=new A.aX(15e4)
 B.C8=new A.aX(15e5)
 B.C9=new A.aX(16667)
 B.kJ=new A.aX(167e3)
 B.S=new A.aX(2e5)
-B.cV=new A.aX(2e6)
+B.e7=new A.aX(2e6)
 B.Ca=new A.aX(225e3)
 B.Cb=new A.aX(25e4)
 B.Cc=new A.aX(2961926e3)
